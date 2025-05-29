@@ -25,5 +25,44 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/PATELMIHIR2715/Evengreener.git
 cd Evengreener
+```
 
+2. **Install dependencies:**
+#### Using npm:
+```bash
+npm install
+```
+#### Or Using Yarn:
+```bash
+yarn install
+```
 
+### 🧪 Running the App
+#### Start the development server:
+
+#### Using npm:
+```bash
+npm run dev
+```
+#### Or Using Yarn:
+```bash
+yarn dev
+```
+#### The app will be available at::
+```bash
+http://localhost:5173/
+```
+### 🗃️ Project Structure
+``` React
+Evengreener/
+├── public/             # Static assets
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── App.jsx         # Root component
+│   └── main.jsx        # Entry point
+├── index.html          # HTML template
+├── .eslintrc.js        # ESLint config
+├── package.json        # Project metadata and scripts
+└── vite.config.js      # Vite configuration
+
+```
